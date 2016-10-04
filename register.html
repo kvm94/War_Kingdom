@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Inscription</title>
+		<link href="css/style.css" 		rel="stylesheet" media="all" type="text/css">
+        <link href="css/register.css" 		rel="stylesheet" media="all" type="text/css">
+		<script type="text/javascript" src="js/common.js"></script>
+        <script type="text/javascript" src="js/register.js"></script>
+	</head>
+	<body>
+		<div id="page">
+			<header><h1>War Kingdoms</h1></header>
+			<div id ="registerScreen">
+				<form action="scripts/register.php" method="post">
+                    <h2>Inscription</h2>
+                    <br/>
+                    <div>
+                        <label>Pseudo : </label>
+                        <input type="text" name="reg_nom" /> 
+                    </div>
+                    <br/>
+                    <div>
+                        <label>Mot de passe : </label>
+                        <input type="password" name="reg_passwd" /> 
+                    </div>
+                    <br/>
+                    <div>
+                        <label>Confirmation MDP : </label>
+                        <input type="password" name="reg_cPasswd" /> 
+                    </div>
+                    <br/>
+                    <br/>
+                    <div>
+                        <a href="index.html"><input type="button" value="Annuler"/></a>
+                        <input type="submit" value="Inscription" />
+                    </div>
+                </form>
+			</div>
+			<footer>Projet AJAX 2016 v0.5.1 Marra Kevin</footer>
+		</div>
+	</body>
+</html>
+

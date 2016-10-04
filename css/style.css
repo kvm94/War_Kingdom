@@ -1,0 +1,25 @@
+header{
+	padding 			: 10px;
+	box-shadow 			: 0 6px 10px 0 rgba(0, 0, 0, 0.7), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom		: 40px;
+	background: url('../img/ban.jpg');
+	height: 115px;
+	padding-top: 30px;
+}
+
+header h1 {
+	text-align 			: center;
+	text-shadow         : #000000 2px 2px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+	color               : #f6f2dc;
+}
+
+body {
+	/*background-color 	: grey;*/
+	background: url('../img/font_grass.jpg');
+}
+
+footer {
+	bottom  			: 0px;
+	margin-top 			: 100px;
+}
+

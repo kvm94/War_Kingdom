@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<title>War Kingdoms v0.5.1</title>
+		<link href="css/style.css" 		rel="stylesheet" media="all" type="text/css">
+		<link href="css/login.css" 		rel="stylesheet" media="all" type="text/css">
+		<link href="css/gameScreen.css" rel="stylesheet" media="all" type="text/css">
+		<script type="text/javascript" src="js/common.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</head>
+	<body>
+		<div id="page">
+			<header><h1>War Kingdoms</h1></header>
+			<div id ="loginScreen">
+				<table>
+					<caption>
+						<h2>Authentification</h2>
+					</caption>
+					<tr>
+						<td>Pseudo :</td>
+						<td><input id="fieldLogin" 	type="text"		/></td>
+					</tr>
+					<tr>
+						<td>Mot de passe :</td>
+						<td><input id="fieldPasswd" type="password"	/></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<input id="btnLogin" type="button" value ="Connexion"/>
+							<a href="register.html"><input type ="button" value ="Inscription" /></a>
+						</td>
+					</tr>
+				</table>
+				login:Jean mdp: pass pour test
+			</div>
+			<div id ="gameScreen">
+				<div id ="menuBar">
+					<input id="btnBack" 	type="button" value="Retour"	/>
+					<input id="btnLogout" 	type="button" value="Déconnexion"/>
+				</div>
+				<h2 id="titreGameScreen"></h2>
+				</br>
+				<div id ="map">
+				</div>
+				<div id ="view">
+					<div id ="townInfo"></div>
+				</div>
+			</div>
+			<footer>Projet AJAX 2016 v0.5.1 Marra Kevin</footer>
+		</div>
+	</body>
+</html>
+
